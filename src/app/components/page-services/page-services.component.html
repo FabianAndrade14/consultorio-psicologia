@@ -1,13 +1,8 @@
-<div class="container text-center my-5">
-    <h2 class="mb-4">Nuestros Servicios</h2>
-    <div class="row">
-        <div class="col-md-4 mb-4" *ngFor="let servicio of servicios">
-            <div class="card h-100 shadow">
-                <div class="card-body">
-                    <h5 class="card-title">{{ servicio.titulo }}</h5>
-                    <p class="card-text">{{ servicio.descripcion }}</p>
-                </div>
-            </div>
-        </div>
+<app-navabar></app-navabar>
+
+<section class="services">
+    <div *ngFor="let servicio of servicios" class="service-card">
+        <h2>{{ servicio.titulo }}</h2>
+        <p>{{ servicio.descripcion }}</p>
     </div>
-</div>
+</section>

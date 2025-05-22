@@ -1,8 +1,10 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { NavabarComponent } from '../navabar/navabar.component';
 
 @Component({
   selector: 'app-page-services',
-  imports: [],
+  imports: [CommonModule, NavabarComponent],
   templateUrl: './page-services.component.html',
   styleUrl: './page-services.component.scss'
 })

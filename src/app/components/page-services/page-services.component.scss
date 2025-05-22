@@ -1,0 +1,14 @@
+.services {
+    padding: 3rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.service-card {
+    background: #f5f5f5;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
