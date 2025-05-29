@@ -6,13 +6,16 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { SharedModule } from './shared/shared.module';
 
+import { PagesModule } from './pages/pages.module';
+
 @NgModule({
   declarations: [
     AppComponent,
   ],
   imports: [
     BrowserModule,
-    SharedModule
+    SharedModule,
+    PagesModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
